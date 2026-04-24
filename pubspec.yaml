@@ -1,5 +1,5 @@
 name: heatic
-description: "A new debate app."
+description: "A modern Flutter debate platform rebuilt from a legacy Java app, featuring Google Sign-In, Firebase integration, and a scalable architecture for real-time discussions."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
