@@ -7,4 +7,6 @@ class AppStrings {
   static const String loadingDialogTitle = "Signing you in...";
   static const String loadingDialogMessage = "Please wait";
   static const String signInFailedMessage = "Google Sign-In failed";
+  static const String createTopicAppBarTitle = "Create Topic";
+  static const String requestCategoryAppBarTitle = "Request Category";
 }

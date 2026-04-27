@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:heatic/screens/create_topic_screen.dart';
 
 import '../constants/app_colors.dart';
 import '../constants/app_strings.dart';
@@ -14,7 +15,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-
   Future<void> _signOut() async {
     await FirebaseAuth.instance.signOut();
 
@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
     Navigator.pushAndRemoveUntil(
       context,
       MaterialPageRoute(builder: (context) => const LoginScreen()),
-          (route) => false,
+      (route) => false,
     );
   }
 
@@ -48,11 +48,17 @@ class _HomeScreenState extends State<HomeScreen> {
           onPressed: () {
             _signOut();
           },
-          icon: Icon(Icons.exit_to_app_sharp, color: Colors.black),
+          icon: Icon(Icons.exit_to_app_sharp, color: Colors.white),
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () {
+          //Open Create Topic Screen
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const CreateTopicScreen()),
+          );
+        },
         child: const Icon(Icons.add, color: Colors.black),
       ),
       body: Column(),
