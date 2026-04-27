@@ -2,7 +2,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:heatic/constants/app_colors.dart';
 import 'package:heatic/constants/app_strings.dart';
-import 'package:heatic/screens/login_screen.dart';
 import 'package:heatic/screens/splash_router.dart';
 
 import 'firebase_options.dart';
