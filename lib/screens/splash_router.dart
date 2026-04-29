@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:heatic/screens/home_screen.dart';
 import 'package:heatic/screens/login_screen.dart';
+import 'package:heatic/screens/login_screen2.dart';
 
 class SplashRouter extends StatefulWidget {
   const SplashRouter({super.key});
@@ -35,7 +36,7 @@ class _SplashRouterState extends State<SplashRouter> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (_) => const LoginScreen(),
+          builder: (_) => const LoginScreen2(),
         ),
       );
 

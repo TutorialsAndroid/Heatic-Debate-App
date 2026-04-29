@@ -3,6 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:heatic/screens/create_topic_screen.dart';
+import 'package:heatic/screens/create_topic_screen2.dart';
 import 'package:quickalert/models/quickalert_type.dart';
 import 'package:quickalert/widgets/quickalert_dialog.dart';
 
@@ -29,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
     Navigator.pushAndRemoveUntil(
       context,
       MaterialPageRoute(builder: (context) => const LoginScreen()),
-      (route) => false,
+          (route) => false,
     );
   }
 
@@ -208,7 +209,7 @@ class _HomeScreenState extends State<HomeScreen> {
           //Open Create Topic Screen
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => const CreateTopicScreen()),
+            MaterialPageRoute(builder: (context) => const CreateTopicScreen2()),
           );
         },
         child: const Icon(Icons.add, color: Colors.black),
