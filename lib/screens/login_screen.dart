@@ -10,6 +10,7 @@ import 'package:quickalert/widgets/quickalert_dialog.dart';
 import '../utils/url_launcher_helper.dart';
 import 'home_screen.dart';
 
+// Author: Akshay
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 

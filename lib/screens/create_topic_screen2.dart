@@ -7,6 +7,7 @@ import 'package:quickalert/widgets/quickalert_dialog.dart';
 import '../constants/app_colors.dart';
 import '../services/create_topic_service.dart';
 
+// Author: Sakshi
 class CreateTopicScreen2 extends StatefulWidget {
   const CreateTopicScreen2({super.key});
 

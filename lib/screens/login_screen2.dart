@@ -12,6 +12,7 @@ import 'package:lottie/lottie.dart';
 import '../utils/url_launcher_helper.dart';
 import 'home_screen.dart';
 
+// Author: Sakshi
 class LoginScreen2 extends StatefulWidget {
   const LoginScreen2({super.key});
 
