@@ -113,7 +113,7 @@ class _CreateTopicScreen2State extends State<CreateTopicScreen2> {
               padding: const EdgeInsets.all(20),
 
               decoration: BoxDecoration(
-                color: Colors.white.withOpacity(.05),
+                color: Colors.white.withValues(alpha: 0.5),
                 borderRadius: BorderRadius.circular(20),
                 border: Border.all(color: Colors.white10),
               ),
